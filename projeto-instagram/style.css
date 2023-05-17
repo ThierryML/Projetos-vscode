@@ -1,0 +1,148 @@
+
+body{
+    width: 100%;
+}
+ion-icon{
+    width: 20px;
+    height: 20px;
+}
+.conteudo{
+    width: 935px;
+}
+.total-menu{
+    width: 1366px;
+    height: 54px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #DBDBDB;
+}
+.menu{
+    width: 935px;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.icone{
+    display: flex;
+}
+.icone-instagram{
+ width: 20px;
+Height: 20px;
+}
+.logo{
+Width:103px;
+Height:29px;
+margin-right: 20px;
+}
+.insta{
+    display: flex;
+    margin-right: 10px;
+}
+.barra-pesquisa{
+ border: 1px solid #DBDBDB;
+ width:215px;
+height:28px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+input{
+    width:215px;
+height:28px;
+border: none;
+
+}
+.pesquisa{
+    color: #979797;
+    font-size: 12px;
+    font-family: roboto;
+    height: 400;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .icones1{
+        display: flex;
+        width: 18px;
+        height: 18px;
+        margin-right: 15px;
+    }
+    
+    .caixa-stories{
+        width: 935px;
+        height: 118px;
+        border: 1px solid #DBDBDB;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: blue;
+        margin: 34px 0 0 215.5px;
+       
+       }
+       .stories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+    .imagem-stories{
+        width: 66px;
+        height: 66px;
+        margin-bottom: 6px;
+    }
+    .caixa-post{
+        width: 614px;
+        height: 749px;
+        border: 1px solid #DBDBDB;
+        margin: 24px 0 0 215.5px;
+    }
+    .usuario{
+        width: 32px;
+        height: 32px;
+        margin: 15px 15px 13px 17px;
+        font-style: bold;
+    }
+    .caixa-usuario{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .trespontos{
+        z-index: 1;
+        font-style: bold;
+        position: absolute;
+      right: 18px;
+       top:20px
+     }
+     .caixa-imagem{
+        width: 612px;
+        height: 612px;
+    background-color: blue;
+   
+     }
+    video{
+        width: 612px;
+        height: 612px;
+      
+    }
+    .caixa-like{
+        display: flex;
+        
+    }
+    .like{
+     margin: auto 0 auto 5px;
+    }
+    .sidebar{
+        width: 293px;
+        height: 500px;
+
+        background-color: aqua;
+        
+}
+    
+   
+

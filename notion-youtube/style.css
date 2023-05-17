@@ -1,0 +1,109 @@
+    body{
+    background-color: #f9f9f9;
+    font-family: Arial;
+    }
+
+    .topo{
+        height: 60px;
+        background-color: red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .logo{
+        width: 100px;
+        height: 20px;
+        background-color: purple;
+    }
+
+    .busca{
+        width: 100px;
+        height: 20px;
+        background-color: green;
+    }
+
+    .login{
+        width: 100px;
+        height: 20px;
+        background-color: yellow;
+    }
+    .conteudo{
+        display: flex;
+       
+        margin-top: 60px;
+    }
+    .menu-lateral{
+        background-color: #ffffff;
+        
+    }
+   
+    .menu-lateral div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-lateral div:hover{
+        background-color: grey;
+        cursor: pointer;
+    }
+    .menu-lateral img{
+        width: 40px;
+    }
+
+    .titulos{
+        margin-left: 20px;
+    }
+
+    .video{
+        margin-left: 20px;
+        width: 250px;
+        }
+
+    h1{
+        font-size: 30px;
+        font-weight: bold;
+       }
+
+     h3{
+        font-size: 18px;
+       }
+
+     img{
+      width: 250px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      }
+
+     a{
+      font-family: "Roboto","Arial",sans-serif;
+      font-size: 1.4rem;
+      color: black;
+      text-decoration: none;
+     }
+
+     p{
+      color: gray;
+      margin-top: 10px;
+     }
+
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .caixa-imagem{
+        position: relative;
+    }
+    .tempo-video{
+        background-color: black;
+        color: white;
+        width: 30px;
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+    }

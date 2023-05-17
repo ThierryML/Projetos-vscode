@@ -1,0 +1,124 @@
+body{
+    width: 375px;
+    height: 667px;
+    max-width: 375px;
+    background-color: #E5E5E5;
+}
+.titulo{
+    width: auto;
+    height: 92px;
+    background-color:#CF2B2B;
+    align-items: center;
+}
+h1{
+    font-family: 'Righteous', cursive;
+}
+p h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo > h1{
+    font-size: 44px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+}
+.titulo > p{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.primeiro{
+    font-size: 26px;
+    margin-left: 20px;
+    margin-top: 31px;
+    margin-bottom: 17px;
+    
+}
+.total1{
+    display: flex;
+    overflow-x: scroll; 
+}
+.primeira-opcao{
+    width: 172px;
+    height: auto;
+    margin-left: 16px;
+    background-color: white;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    img{
+    width: 144px;
+    height: 87px;
+    
+    }
+    .imagem1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 18px 14px 10px 14px;
+        text-overflow: ellipsis;
+       
+       
+    }
+    .imagem1 > p{
+        font-size: 16px;
+        font-weight:700;
+        margin: 10px 0 10px 0 ;
+        
+        height: 35px;
+       
+    }
+    .imagem1 > h2{
+        font-size: 15px;
+        font-weight: 300;
+        
+        height: 35px;
+       
+    }
+    .imagem1 > h3{
+        font-size: 16px;
+        font-weight:700;
+       
+        height: 35px;
+        margin-top: 10px;
+    }
+    
+    .finalizacao{
+        background-color: white;
+        width: 375px;
+        height: 92px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .borda{
+        width: 364px;
+        height: 61px;
+        background-color: #cbcbcb;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .borda > p{
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+    }
+    .check{
+        opacity: 0;
+        color: #32b72f;
+        font-size: 20px;
+    }
+     .selecionado{
+        border: 5px solid rgb(0, 201, 0);
+    }
+
+    

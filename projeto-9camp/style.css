@@ -1,0 +1,75 @@
+.logo{
+    background-color: #333333;
+    height: 64px;
+    text-align: center;
+}
+.meme1{
+    width: 640px;
+height: auto;
+background-color: #ffffff;
+margin:30px auto auto auto;
+border-width: 1px solid #eaeaea;
+
+}
+.cachorro{
+    font-size: 48px;
+    font-style: bold;
+    color: #aa4653;
+    margin: 30px;
+}
+.meme2{
+    width: 640px;
+height: auto;
+background-color: #ffffff;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+border-width: 1px solid #eaeaea;
+}
+.simpsons{
+    font-size: 48px;
+    font-style: bold;
+    color: #aa4653;
+    margin: 30px;
+}
+.simpsons2{
+    color: #000000;
+    margin:auto 30px 30px 30px
+}
+.meme3{
+    width: 640px;
+height: auto;
+background-color: #ffffff;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+border-width: 1px solid #eaeaea;
+}
+.celular{
+    font-size: 48px;
+    font-style: bold;
+    color: #aa4653;
+    margin: 30px;
+}
+.celular2{
+    color: #000000;
+    margin:auto 30px 30px 30px
+}
+.stranger{
+    width: 640px;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px solid #eaeaea;
+}
+.alienigena{
+    font-size: 48px;
+    font-style: bold;
+    color: #aa4653;
+    margin: 30px;
+}
+.imagem-meme{
+    width: 640px;
+}
