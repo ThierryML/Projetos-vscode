@@ -1,8 +1,10 @@
 body{
     width: 375px;
     height: 667px;
-    max-width: 375px;
+    max-width: auto;
     background-color: #E5E5E5;
+   
+    
 }
 .titulo{
     width: auto;
@@ -36,11 +38,20 @@ p h2 {
     margin-bottom: 17px;
     
 }
-.total1{
+.total1  {
     display: flex;
     overflow-x: scroll; 
 }
-.primeira-opcao{
+.total2  {
+    display: flex;
+    overflow-x: scroll; 
+}
+.total3  {
+    display: flex;
+    overflow-x: scroll; 
+}
+
+.primeira-opcao .segunda-opcao .terceira-opcao{
     width: 172px;
     height: auto;
     margin-left: 16px;
@@ -118,7 +129,8 @@ p h2 {
         font-size: 20px;
     }
      .selecionado{
-        border: 5px solid rgb(0, 201, 0);
+       background-color:#32b72f ;
+       color: white;
     }
 
     
