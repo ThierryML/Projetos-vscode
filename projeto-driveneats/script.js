@@ -1,5 +1,8 @@
 
-function comida(primeiro){
+let prato;
+let bebidas;
+let sobremesas;
+function comida(primeiro, selecionartitulo){
 // 1° pegar o elemento comida1 e trazer para o js.
 const selecionar1 = document.querySelector('.total1 .selecionado');
 //condição para evitar o null.
@@ -11,8 +14,11 @@ if(selecionar1 !== null){
 primeiro.classList.add('selecionado');
 //3° desmarcar o botão selecionado e selecionar o que foi clicado.
  primeiro.innerHTML;
+const elementotitulo = document.querySelector(selecionartitulo+'.nomeprato')
 
-console.log(primeiro);
+console.log(selecionartitulo+'.nomeprato');
+
+prato = elementotitulo.innerHTML;
 }
 
 function bebida(segundo){
