@@ -14,14 +14,13 @@ if(selecionar1 !== null){
 primeiro.classList.add('selecionado');
 //3° desmarcar o botão selecionado e selecionar o que foi clicado.
  primeiro.innerHTML;
-const elementotitulo = document.querySelector(selecionartitulo+'.nomeprato')
+const elementotitulo = document.querySelector(selecionartitulo+'.nomeprato');
 
 console.log(selecionartitulo+'.nomeprato');
-
 prato = elementotitulo.innerHTML;
 }
 
-function bebida(segundo){
+function bebida(segundo,selecionartitulo){
 // 1° pegar o elemento comida1 e trazer para o js.
 const selecionar2 = document.querySelector(' .total2 .selecionado');
 //condição para evitar o null.
@@ -35,10 +34,12 @@ segundo.classList.add('selecionado');
  segundo.innerHTML;
 
 console.log(segundo);
-
+const elementotitulo = document.querySelector(selecionartitulo+'.nomebebida');
+console.log(selecionartitulo+'.nomebebida');
+bebidas = elementotitulo.innerHTML;
 }
 
-function sobremesa(terceiro){
+function sobremesa(terceiro, selecionartitulo){
     // 1° pegar o elemento comida1 e trazer para o js.
     const selecionar3 = document.querySelector(' .total3 .selecionado');
     //condição para evitar o null.
@@ -52,5 +53,8 @@ function sobremesa(terceiro){
      terceiro.innerHTML;
     
     console.log(terceiro);
+    const elementotitulo = document.querySelector(selecionartitulo+'.nomesobremesa');
+console.log(selecionartitulo+'.nomesobremesa');
+sobremesas = elementotitulo.innerHTML;
 }
 
